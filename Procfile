@@ -1,1 +1,1 @@
-web: bundle exec rackup -o 0.0.0.0
+web: bundle exec puma -b tcp://0.0.0.0:9292
