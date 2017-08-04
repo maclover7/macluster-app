@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/maclover7/macluster-deploy
+  revision: 50b72802e792d3d52e2e53db6e05be8a16f03428
+  specs:
+    macluster-deploy (0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -13,7 +19,6 @@ GEM
     rack (1.6.5)
     rack-protection (1.5.3)
       rack
-    rake (12.0.0)
     sinatra (1.4.8)
       rack (~> 1.5)
       rack-protection (~> 1.4)
@@ -27,9 +32,9 @@ PLATFORMS
 
 DEPENDENCIES
   foreman
+  macluster-deploy!
   pry
   puma
-  rake
   sinatra
 
 BUNDLED WITH
