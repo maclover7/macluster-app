@@ -2,6 +2,6 @@ require 'sinatra/base'
 
 class App < Sinatra::Base
   get '/' do
-    'Hello World v1'
+    'Hello World v2'
   end
 end
